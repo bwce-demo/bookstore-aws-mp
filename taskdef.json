@@ -1,5 +1,5 @@
 {
-    "family": "launch-bwce-bookstore",
+    "family": "bwce-bookstore-taskdef",
     "containerDefinitions": [
         {
             "image": "928133119666.dkr.ecr.us-east-1.amazonaws.com/bwce-bookstore:latest",
