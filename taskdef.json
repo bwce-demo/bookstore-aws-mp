@@ -2,7 +2,7 @@
     "family": "bwce-bookstore-taskdef",
     "containerDefinitions": [
         {
-            "image": "928133119666.dkr.ecr.us-east-1.amazonaws.com/bwce-bookstore:latest",
+            "image": "928133119666.dkr.ecr.us-west-1.amazonaws.com/bwce-bookstore:latest",
             "name": "bwce-bookstore",
             "cpu": 10,
             "memory": 1024,
@@ -23,7 +23,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "bwce-bookstore-log",
-                    "awslogs-region": "us-east-1",
+                    "awslogs-region": "us-west-1",
                     "awslogs-stream-prefix": "bwce"
                 }
 	    }
